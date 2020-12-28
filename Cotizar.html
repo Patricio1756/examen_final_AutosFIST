@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea_pagina</title>
+    <link rel="preconnect" href="Normalize.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="Normalize" href="css/normalize.css">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <header class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <h1 class="copyrigth">AUTOSFIST </h1>
+               <nav class="naver saver">
+                   <a href="index.html">Inicio</a>
+                     
+                       <a href="Cotizar.html">Cotizar</a>
+                       <a href="contactos.html">Contactos</a>
+                       <a target="_blank" href="https://sudamericanoquito.edu.ec/">Créditos</a>
+               </nav>
+        
+       </div>
+    </header>
+    <center><h1 class="centrar-texto fw-300">Cotizar compras</h1></center>
+    <center><img src="Autos/compra.jpeg" alt="imagen contacto" ></center>
+    <main class="contenedor seccion contenido-centrado">
+       <center><h2 class=" fw-300 centrar-texto">llena el formulario de compra</h2></center>
+        
+        <form action="" class="contacto">
+            <fieldset>
+                <legend>información personal</legend>
+            
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="tu nombre">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="tu correo" required>
+
+                <label for="telefono">teléfono</label>
+                <input type="tel" id="telefono" placeholder="tu telefono ">
+
+                <label for="mensaje">mensaje</label>
+                <textarea name="" id="" cols="90" rows="10"></textarea>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>información sobre vehículo</legend>
+                <label for="opciones">compra</label>
+                <select name="" id="opciones">
+                    <option value="" disabled selected>--Marca--</option>
+                    <option value="compra" >Lamborghini</option>
+                    <option value="compra" >Jeep</option>
+                    <option value="compra" >Ferrari</option>
+                    <option value="compra" >Porshce Panamera</option>
+                    <option value="compra" >Mercedes-Benz</option>
+                    <option value="compra" >Gran BMW</option>
+
+                </select>
+            
+                <label for="cantidad">cantidad</label>
+                <input type="number" id="cantidad" min = "0" max= "50" step="5" >
+            </fieldset>
+
+            <fieldset>
+                
+                <legend>contacto</legend>
+                <p>como desea ser contactado</p>
+                <div class="forma-contacto">
+                    <label for="telef">telefono</label>
+                    <input type="radio" name="contacto" id="telef">
+                    
+                    <label for="correo">correo</label>
+                    <input type="radio" name="contacto" id="correo">
+
+                </div>
+                <p>si eligio telefono,elija la fecha</p>
+                <label for="fecha">fecha</label>
+                <input type="date" id="fecha">
+                <label for="hora">hora</label>
+                <input type="time" id="hora" min ="9:00" max="18:00"> 
+
+            </fieldset>
+
+        <input type="submit" value="enviar" class="boton boton-verde">
+        
+        </form>
+    </main>
+        
+
+    <div class="icono">
+        <a href="index.html">
+    <center><img src="/Autos/lambor.png" alt="Todas las marcas" height="150" width="350"></center></a>
+    
+    </div>
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+               
+               <nav class="naver saver">
+                   <a href="index.html">Inicio</a>
+                       <a href="index.html">Marcas</a>
+                       <a href="Cotizar.html">Cotizar</a>
+                       <a href="contactos.html">Contactos</a>
+                       <a target="_blank" href="https://sudamericanoquito.edu.ec/">Créditos</a>
+               </nav>
+        <p class="copyrigth">AUTOSFIST 2020. Todos los derechos Reservados &copy;</p>
+       </div>
+    </footer>
+    
+</body>
+</html>
